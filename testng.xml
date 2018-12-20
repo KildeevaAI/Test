@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="YandexMarketTests" parallel="none">
+    <test verbose="1" name="ChangeCity" annotations="JDK">
+        <classes>
+            <class name="CityTest">
+            </class>
+        </classes>
+    </test>
+    <test verbose="2" name="SelectCompMouse" annotations="JDK">
+        <classes>
+            <class name="CompMouseTest">
+            </class>
+        </classes>
+    </test>
+    <test verbose="3" name="Login" annotations="JDK">
+        <classes>
+            <class name="LoginTest">
+            </class>
+        </classes>
+    </test>
+    <test verbose="4" name="RobotCleaner" annotations="JDK">
+        <classes>
+            <class name="RobotCleanerTest">
+            </class>
+        </classes>
+    </test>
+</suite>
